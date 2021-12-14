@@ -1,6 +1,6 @@
 const calculator = () => {
   const sum = (a, b) => a + b;
-  const multiply = (b, a) => b / a;
+  const multiply = (a, b) => a * b; 
 
   return { sum, multiply };
 };
